@@ -1,0 +1,5 @@
+#include<algorithm>
+if(find (vec.begin(), vec.end(), ser))
+{
+int c=find(Names.begin(), Names.end(), 4) - Names.begin();
+}

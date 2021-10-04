@@ -1,0 +1,3 @@
+And to check in the range [i,j):
+
+auto max_it = std::max_element(v.begin()+i, v.begin()+j);

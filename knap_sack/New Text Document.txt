@@ -1,0 +1,8 @@
+flow of thinking
+
+1.) array ke kuch subsets ka use kar ke kuch optimal chij;
+2.) 2 cases banega ki kisi bhi element ko us
+	set me dale ya nahi
+	dono case me do naya subproblems banega
+	aur wo dono subproblems kuch dega jo ki question me pucha
+	ab dekho un dono solutions ka kya karna hai aur wahi kar do usme;

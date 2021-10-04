@@ -1,0 +1,3 @@
+s1.insert(0,"abcd");
+
+0 th index par 'a; uske baad se chalu

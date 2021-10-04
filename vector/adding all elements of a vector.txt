@@ -1,0 +1,2 @@
+#include<numeric>
+cout<<accumulate(v.begin(),v.end(),0);

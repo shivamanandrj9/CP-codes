@@ -1,0 +1,2 @@
+#include<algorithm>
+freq = count(v.begin(), v.end(), val);

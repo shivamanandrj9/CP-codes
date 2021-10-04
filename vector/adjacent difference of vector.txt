@@ -1,0 +1,4 @@
+#include<numeric>
+vector<int> result(v.size());
+adjacent_difference(v.begin(),v.end(),result.begin());
+v.erase(result.begin() + 0);

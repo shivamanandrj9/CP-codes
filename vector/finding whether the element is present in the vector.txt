@@ -1,0 +1,2 @@
+#include<algorithm>
+if(find(v.begin(), v.end(), x) != v.end())

@@ -1,0 +1,5 @@
+#include <string>
+#include <algorithm>
+
+string s = "03/02";
+swap(s[1], s[4]);

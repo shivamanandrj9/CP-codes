@@ -1,0 +1,11 @@
+lower_bound(a.begin(),a.end(),x) - a.begin();  ---->  return number of element < x;
+upper_bound(a.begin(),a.end(),x) - a.begin();  ---->  return number of element <=x;
+
+BEWARE ARRAY MAY CONTAIN EQUAL ELEMENTS
+
+
+
+in case we need element which are less than or equal to given value
+
+auto itr=s.lower_bound(key+1);
+itr--;

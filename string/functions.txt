@@ -1,0 +1,9 @@
+#incldue<cstring>
+
+1.)  if (strstr(a.c_str(), b.c_str()))
+     {
+         cout << " S1 Contains S2";
+     }
+
+2.)  a.substr(i, len)   ---->  gives a substring of string a starting with index i and of size len
+

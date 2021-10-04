@@ -1,0 +1,2 @@
+#include<algorithm>
+reverse(a.begin(),b.end());
