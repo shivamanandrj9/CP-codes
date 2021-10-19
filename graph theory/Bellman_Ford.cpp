@@ -7,6 +7,10 @@
 
 //https://www.youtube.com/watch?v=24HziTZ8_xo
 
+//make dist[x]=0 in the starting to calculte the min dist from that x node
+
+//negative edge wt cycle means sum of all the edge dist in that cycle is -ve
+
 #include <iostream>
 #include <algorithm>
 #include <numeric>
