@@ -64,8 +64,10 @@ void solve()
         cin >> graph[x][y];
     }
 
-    for (int k = 0; k < V; ++k)         //Try all intermediate nodes
-        for (int i = 0; i < V; ++i)     //Try for all possible starting position
+    for (int k = 0; k < V; ++k) //Try all intermediate nodes
+    {
+        for (int i = 0; i < V; ++i) //Try for all possible starting position
+        {
             for (int j = 0; j < V; ++j) //Try for all possible ending position
             {
                 if (graph[i][k] == INF || graph[k][j] == INF) //SKIP if K is unreachable from i or j is unreachable from k
@@ -73,6 +75,12 @@ void solve()
                 else if (graph[i][k] + graph[k][j] < graph[i][j]) //Check if new graphance is shorter via vertex K
                     graph[i][j] = graph[i][k] + graph[k][j];
             }
+        }
+        
+        
+    }
+
+    
 
     //Check for negative edge weight cycle
     for (int i = 0; i < V; ++i)
