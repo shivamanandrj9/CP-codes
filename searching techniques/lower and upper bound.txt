@@ -9,3 +9,6 @@ in case we need element which are less than or equal to given value
 
 auto itr=s.lower_bound(key+1);
 itr--;
+
+distance(s.begin(), s.lower_bound(x))     ->> return number of element < x in a set;
+distance(s.begin(), s.upper_bound(x))     -> return number of element<=x in a set;
