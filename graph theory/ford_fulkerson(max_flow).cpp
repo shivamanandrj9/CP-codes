@@ -1,3 +1,5 @@
+//1 based
+
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -57,10 +59,14 @@ int main()
     {
         int a,b,w;
         cin>>a>>b>>w;
-        graph[a][b]=w;
+        graph[a-1][b-1]=w;
     }
-
+    int src,dst;
+    cout<<"Enter Source : ";
+    cin>>src;
+    cout<<"Enter Dest :";
+    cin>>dst;
     
-    cout << "Maximum Flow: " << ford_fulkerson(graph, 0, 5) << endl;
+    cout << "Maximum Flow: " << ford_fulkerson(graph, src-1, dst-1) << endl;
     return 0;
 }

@@ -70,7 +70,7 @@ void bellmanford(vector<edge> &edges)
     vi dist(v, INF);
 
     parent[0] = -1;  //just for printing purpose
-    dist[0] = 0;
+    dist[0] = 0;  //set 0 to x for x to be the source
 
     bool updated;
     FOR(i, 0, v - 1)
